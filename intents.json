@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "tech_stack",
+      "patterns": [
+        "what is her tech stack",
+        "which languages is she proficient in",
+        "what tech tools does she use",
+        "which programming languages does she know",
+        "tech stack she's good at",
+        "what technologies is she skilled in"
+      ],
+      "responses": [
+        "Aakansha is proficient in Java and Python — those are her strongest languages. She also has experience with JavaScript, PHP, and tools like MySQL, MongoDB, React, Laravel, FastAPI, Dash, and Spring Boot."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! Ask me anything about Aakansha!", "Hi there! Curious about Aakansha?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "take care"],
+      "responses": ["Goodbye! Feel free to come back anytime.", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "skills",
+      "patterns": ["what are her skills", "what languages does she know", "what technologies has she worked with"],
+      "responses": [
+        "Aakansha has experience with Java (Spring Boot), Python (Dash, Plotly), JavaScript (React, AlpineJS), PHP (Laravel), and database systems like MySQL, PostgreSQL, and MongoDB. She's also worked with tools like PowerBI and Tableau!"
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["what projects has she done", "tell me about her personal projects", "what has she built"],
+      "responses": [
+        "She built a personal AI assistant (me!) using Python and Gradio, a real-time chat app in Golang with Redis & Docker, and has worked on full-stack apps for IBM and Parkview Health."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": ["where did she study", "what's her educational background", "tell me about her education"],
+      "responses": [
+        "Aakansha completed her MS in Computer Science from Purdue University, Fort Wayne. She previously completed her BTech in Computer Science from Bhilai Institute of Technology with a 9.4 GPA."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": ["where has she worked", "what companies has she worked at", "tell me about her experience"],
+      "responses": [
+        "She's worked at IBM as a Full Stack Developer and also interned at Parkview Health as a Software Engineering Intern. She’s also worked as a Teaching Assistant at Purdue."
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["what are her hobbies", "what does she do in free time", "what does she like doing"],
+      "responses": [
+        "Aakansha enjoys photography (check out her Insta: @one_last.click 📸), writing on Medium and Blogger, and painting when inspiration strikes!"
+      ]
+    },
+    {
+      "tag": "goals",
+      "patterns": ["what are her goals", "what does she want to do in life", "what are her dreams"],
+      "responses": [
+        "Professionally, she wants to build thoughtful tech products that improve lives. Personally, she’s chasing creativity, impact, and inner peace — preferably with coffee and colors."
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": ["where does she see herself in 5 years", "what's her future plan", "what is her vision"],
+      "responses": [
+        "In 5 years, Aakansha envisions herself in a senior product/tech role, leading innovation, mentoring young talent, and hopefully working on something cool involving AI and people!"
+      ]
+    },
+    {
+      "tag": "motto",
+      "patterns": [
+        "what is your motto",
+        "do you have a life philosophy",
+        "what do you believe in",
+        "what's your mantra",
+        "what drives you"
+      ],
+      "responses": [
+        "Life is short enough to try, and long enough to never regret trying.",
+        "Take the leap. The fall might just be a flight.",
+        "Life’s short enough to take chances and long enough to turn them into stories."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact her?",
+        "Is there a way to reach Aakansha?",
+        "What's her email?",
+        "Can I get in touch with Aakansha?"
+      ],
+      "responses": [
+        "You can contact Aakansha at aakansha.a03@gmail.com. She's happy to connect!"
+      ]
+    },
+    {
+      "tag": "about_me",
+      "patterns": [
+        "Tell me about Aakansha",
+        "Who is she?",
+        "Introduce Aakansha",
+        "What does Aakansha do?",
+        "Give me a summary of Aakansha"
+      ],
+      "responses": [
+        "Aakansha Arora is a software engineer with a love for building user-friendly products. She completed her MS in Computer Science at Purdue University, has worked at IBM, and recently built her own AI Assistant (that’s me!). She’s passionate about technology, storytelling, and design — and she’s on a mission to blend them all."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is she based?",
+        "Where does Aakansha live?",
+        "Where is she from?"
+      ],
+      "responses": [
+        "Aakansha is originally from India 🇮🇳 and is currently based in the USA while completing her MS at Purdue."
+      ]
+    },
+    {
+      "tag": "blog",
+      "patterns": [
+        "Does she write?",
+        "Where can I read her blog?",
+        "Does she have a blog?",
+        "Is she a writer?"
+      ],
+      "responses": [
+        "Yes! Aakansha writes about tech, product, and life experiences on Medium and Blogger. You can check her out here: [Medium](https://medium.com/@aakansha.a03)."
+      ]
+    },
+    { 
+      "tag":"favourite_project",
+      "patterns":[
+         "what languages does she know",
+         "tech stack",
+         "what technologies she works with",
+         "what is she good at",
+         "what programming languages does she use"
+      ],
+      "responses":[
+        "Her favorite project is the one you’re chatting with right now — her own AI bot 🧠💬. She built it from scratch and keeps teaching it new things (yes, that’s me blushing).",
+        "Definitely this chatbot — the AI version of herself. It’s her digital twin, minus the coffee addiction.",
+        "Probably this bot! She’s been training and tweaking it like it’s her digital diary with attitude.",
+        "She once said this bot is her favorite because it talks back without interrupting — can’t argue with that!"
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fun fact about her",
+        "Something interesting about Aakansha",
+        "Any quirky facts?"
+      ],
+      "responses": [
+        "Fun fact: Aakansha literally turned her resume into an AI chatbot — you're chatting with it right now 🤖✨",
+        "She believes coffee + code + creativity = happiness ☕💻🎨"
+      ]
+    },
+    {
+        "tag": "current_status",
+  "patterns": [
+    "what is she doing now",
+    "where is she now",
+    "what's she up to",
+    "what is aakansha doing",
+    "what is she doing right now"
+  ],
+  "responses": [
+    "Probably coding something weird or cooking something new. Honestly, she’s like my creator-god — she knows what I do, but I have *no clue* what she’s doing.",
+    "Hard to say… she’s either debugging code or burning chapatis. She’s unpredictable like that.",
+    "Somewhere between a line of Python and a spoon of coffee — that’s her usual habitat.",
+    "Honestly? She could be coding, painting, or planning world domination. I don’t ask too many questions."
+  ]
+    }
+  ]
+}
